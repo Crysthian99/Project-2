@@ -1,39 +1,46 @@
 h1 {
-    font-size: 80px;
-    text-align: center;
+  text-align:center;
+  font-size: 80px;
 }
 
 h2 {
-    font-size: 40px;
-    text-align: center;
-    text-indent: 60px;
+  text-align:center;
+  font-size: 40px;
 }
 
-
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 50;
-  position:center;
-  overflow: hidden;
-  background-color: #333;
+h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: serif;
 }
 
-li {
-  float: left;
-  position: center;
+nav {
+	background-color: #74a3d2; 
+	font-size: relative; 
+  text-align: center;
+  padding: 0px; /* Dimensiunile box-ului */
 }
 
-li a {
-  display: block;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  position:center;
+nav a {
+	line-height: 20px;
+  padding: 15px;
+  font-family: Arial; 
+	height: 20px; /* In functie de display, auto */
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+	text-decoration: none; /* Fara sublinieri si jeguri  */
+	text-transform: uppercase;/* Il face cu litere mari */
+	text-align: center; /* Centreaza textul */
+	color: white;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
+nav a:hover {
+  background-color: #3c2f2f;
 }
+
+a:active {
+  background-color: yellow;
+}
+  
+
